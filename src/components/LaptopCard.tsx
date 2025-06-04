@@ -88,11 +88,11 @@ const LaptopCard: React.FC<LaptopCardProps> = ({ laptop }) => {
             <div>
               {laptop.oldPrice && (
                 <span className="text-gray-500 line-through text-sm mr-2">
-                  {laptop.oldPrice.toLocaleString()} ₽
+                  {laptop.oldPrice.toLocaleString()} сом
                 </span>
               )}
               <span className="text-lg font-bold text-blue-600">
-                {laptop.price.toLocaleString()} ₽
+                {laptop.price.toLocaleString()} сом
               </span>
             </div>
 

@@ -157,10 +157,10 @@ const Filters: React.FC = () => {
             <div className="p-4 pt-0">
               <div className="flex justify-between mb-2">
                 <span className="text-sm text-gray-600">
-                  От: {filters.priceRange[0].toLocaleString()} ₽
+                  От: {filters.priceRange[0].toLocaleString()} сом
                 </span>
                 <span className="text-sm text-gray-600">
-                  До: {filters.priceRange[1].toLocaleString()} ₽
+                  До: {filters.priceRange[1].toLocaleString()} сом
                 </span>
               </div>
               

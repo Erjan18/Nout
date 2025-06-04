@@ -78,7 +78,7 @@ const CartPage: React.FC = () => {
                         </div>
                         <div className="flex items-center space-x-4">
                           <span className="font-semibold">
-                            {(product.price * product.quantity).toLocaleString()} ₽
+                            {(product.price * product.quantity).toLocaleString()} сом
                           </span>
                           <button
                             onClick={() => removeFromCart(product.id)}
@@ -102,12 +102,12 @@ const CartPage: React.FC = () => {
               <div className="space-y-3">
                 <div className="flex justify-between text-gray-600">
                   <span>Товары ({cartProducts.length})</span>
-                  <span>{totalPrice.toLocaleString()} ₽</span>
+                  <span>{totalPrice.toLocaleString()} сом</span>
                 </div>
                 <div className="border-t border-gray-200 pt-3">
                   <div className="flex justify-between font-semibold text-lg">
                     <span>Итого</span>
-                    <span>{totalPrice.toLocaleString()} ₽</span>
+                    <span>{totalPrice.toLocaleString()} сом</span>
                   </div>
                 </div>
               </div>
